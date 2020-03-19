@@ -46,8 +46,8 @@
 
     }
 
-    .third>.colored {
-        width: 25%;
+    .third {
+        flex-basis: 25%;
     }
 
     .fouth {
@@ -131,7 +131,7 @@
     }
 }
 /* Tablet Landscape: 960px */
-@media (min-width: 960px) {
+@media (min-width: 960px) and (max-width: 1200px)  {
     .first {
         display: flex;
         flex-wrap: wrap;
@@ -191,7 +191,7 @@
     }
 }
 /* Tabled Portrait: 768px */
-@media (min-width: 768px){
+@media (min-width: 768px) and (max-width: 960px){
     .first{
         width: 50%;
     }
@@ -234,7 +234,7 @@
 }
 
 /* Mobile: 320px */
-@media (min-width: 320px){
+@media (min-width: 320px) and (max-width:768px){
     .first{
         width: 50%;
     }
